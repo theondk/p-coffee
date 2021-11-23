@@ -11,7 +11,7 @@ const SingleCoffeInfo = () => {
     const [item, setItem] = useState(null);
 
     useEffect(() => {
-        request(`http://localhost:3001/coffee?id=${coffeeId}`)
+        request(`http://https://p-coffee.herokuapp.com/api/coffee?id=${coffeeId}`)
             .then(data => setItem(data))
     }, []);
 
