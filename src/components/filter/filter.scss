@@ -1,0 +1,35 @@
+.filter {
+    display: flex;
+    align-items: center;
+    &__label {
+        margin-right: 35px;
+        font-weight: 400;
+        font-family: 'Merienda', cursive;
+        font-size: 14px;
+    }
+    &__button {
+        padding: 6px 20px;
+        background: white;
+        cursor: pointer;
+        border: none;
+        font-weight: 400;
+        font-size: 12px;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        margin-right: 5px;
+        font-family: 'Merienda', cursive;
+        transition: .3s all;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            background: rgb(233, 230, 230);
+            color: black;
+            filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.1));
+        }
+        &_selected {
+            background: rgb(233, 230, 230);
+            color: black;
+            filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.1));
+        }
+    }
+}

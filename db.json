@@ -1,0 +1,58 @@
+{
+    "coffee": [
+        {
+            "id": "1",
+            "name": "Solimo Coffee Beans 2 kg",
+            "country": "Brasil",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "16.99$",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ztpe8R9Cg3hXRXdJSns0Pt8i8kspp4B5tg&usqp=CAU",
+            "purchases": 5
+        },
+        {
+            "id": "2",
+            "name": "Presto Coffee Beans 1 kg",
+            "country": "Brasil",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "16.99$",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYME6I-hg0tTp_6oIL4qn24_hm-2IkAr2tHQ&usqp=CAU",
+            "purchases": 8
+        },
+        {
+            "id": "3",
+            "name": "AROMISTICO Coffee 1 kg",
+            "country": "Kenya",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "16.99$",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbqFJLY1gz7J-QuD-7cHGsfrWfZtbenpa2Q&usqp=CAU",
+            "purchases": 1
+        },
+        {
+            "id": "4",
+            "name": "Crema e Aroma Coffee Beans 1kg",
+            "country": "Kenya",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "16.99$",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-bPZaR__Ls9_YZEtfrdekgJXVvDHiGRGQ6g&usqp=CAU",
+            "purchases": 2
+        },
+        {
+            "id": "5",
+            "name": "Lavazza Crema e Gusto - Ground Coffee 250g",
+            "country": "Brasil",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "16.99$",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkKL0conz5KOWfVLOz81fqKw_PcLagYFZ9A&usqp=CAU",
+            "purchases": 19
+        },
+        {
+            "id": "6",
+            "name": "Lavazza Qualita Oro 1kg",
+            "country": "Columbia",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": "16.99$",
+            "img": "https://tablab.eu/wp-content/uploads/2021/03/tablab_eu_LLAVAZZA_orro.png",
+            "purchases": 1
+        }
+    ]
+}

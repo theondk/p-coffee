@@ -1,0 +1,43 @@
+.catalog {
+    padding: 61px 0 32px 0;
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 220px);
+        gap: 60px 70px;
+        grid-template-rows: minmax(260px, auto);
+    }
+    &__item {
+        border-radius: 8px;
+        padding: 37px 21px 22px 21px;
+        box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+        &-img {
+            height: 115px;
+            width: 167px;
+            display: block;
+            margin: 0 auto;
+        }
+        &-name {
+            margin-top: 14px;
+            font-weight: 400;
+            font-size: 14px;
+            font-family: 'Merienda', cursive;
+        }
+        &-country {
+            margin-top: 14px;
+            text-align: right;
+            font-weight: 400;
+            font-size: 14px;
+            font-family: 'Merienda', cursive;
+        }
+        &-price {
+            text-align: right;
+            margin-top: 14px;
+            font-weight: 700;
+            font-size: 14px;
+            font-family: 'Merienda', cursive;
+        }
+    }
+}

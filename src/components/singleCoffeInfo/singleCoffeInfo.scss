@@ -1,0 +1,44 @@
+.single-coffee {
+    padding: 70px 0 30px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 390px 355px;
+        gap: 30px 55px;
+        grid-template-rows: minmax(355px, auto);
+    }
+    &__img {
+        height: 355px;
+        width: 390px;
+    }
+    &__info {
+        text-align: center;
+        span {
+            font-weight: 700;
+            font-size: 14px;
+        }
+        &-title {
+            margin-top: 20px;
+        }
+        &-country {
+            text-align: left;
+            margin-top: 26px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Merienda', cursive;
+        }
+        &-descr {
+            text-align: left;
+            margin-top: 16px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Merienda', cursive;
+        }
+        &-price {
+            margin-top: 16px;
+            text-align: left;
+            font-size: 24px;
+            font-weight: 400;
+            font-family: 'Merienda', cursive;
+        }
+    }
+}

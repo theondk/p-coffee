@@ -1,0 +1,10 @@
+.coffee_header {
+    padding: 130px 0 84px 0;
+    text-align: center;
+    &_coffee {
+        background: url('../../resources/imgs/our_coffee.jpg') center (center/cover) no-repeat;
+    }
+    &_pleasure {
+        background: url('../../resources/imgs/pleasure_bg.jpg') center (center/cover) no-repeat;
+    }
+}

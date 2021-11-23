@@ -1,0 +1,26 @@
+.info {
+    padding: 70px 0 0 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 280px 350px;
+        grid-auto-rows: minmax(370px, auto);
+        gap: 30px 85px;
+    }
+    &__img {
+        width: 270px;
+        height: 355px;
+        filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+    }
+    &__content {
+        text-align: center;
+        &-title {
+            margin-bottom: 20px;
+        }
+        &-descr {
+            margin-top: 26px;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Merienda', cursive;
+        }
+    }
+}
