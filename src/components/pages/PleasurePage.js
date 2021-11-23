@@ -5,6 +5,7 @@ import Catalog from "../catalog/Catalog";
 import Footer from '../footer/Footer';
 
 import img from '../../resources/imgs/pleasure_img.jpg';
+import { Helmet } from "react-helmet";
 
 const PleasurePage = () => {
     const descr = "Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.<br/><br/> Afraid at highly months do things on at. Situation recommend objection do intention so questions.  As greatly removed calling pleased improve an. Last ask him cold feel met spot shy want. Children me laughing we prospect answered followed. At it went is song that held help face."
