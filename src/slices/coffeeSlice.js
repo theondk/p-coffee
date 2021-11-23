@@ -10,7 +10,7 @@ export const fetchCoffee = createAsyncThunk(
     'coffee/fetchCoffee',
     async () => {
         const { request } = httpReq();
-        return await request("http://https://p-coffee.herokuapp.com/api/coffee");
+        return await request("https://p-coffee.herokuapp.com/api/coffee");
     }
 )
 
